@@ -1,0 +1,27 @@
+a{
+text-decoration: none;
+
+}
+li{
+    list-style-type: none;
+}
+.border{
+    font-style: normal;
+    border: 0.2rem solid rgb(66, 66, 66);
+    background-color: rgba(189, 219, 253, 0.267) ;
+    border-radius: 1rem;
+}
+.border:hover{
+    border: 0.2rem solid rgb(165, 78, 78);
+    background-color: rgba(189, 219, 253, 0.562) ;
+}
+
+
+
+#backgroundBody{
+    background: #abbaab; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #abbaab, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #abbaab, #ffffff);
+    font-family: "Oswald", sans-serif;
+  
+}
