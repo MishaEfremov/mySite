@@ -1,0 +1,40 @@
+.main-f-n div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer-navigition {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer-navigition a {
+    justify-content: space-around;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-navigition div {
+    margin: 10px;
+    padding-top: 20px;
+}
+
+div .nimes {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    padding-top: 20px;
+    font-size: 26px;
+}
+
+footer {
+    height: 222px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #151C22;
+    font-size: 18px;
+}

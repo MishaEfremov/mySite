@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+  }
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.349);
+   
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+.backgroundBody {
+    background: #abbaab;
+    
+    background: linear-gradient(to top, #859485, #ffffff) no-repeat;
+    
+    
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.light-blue:hover {
+     box-shadow: 0 0 30px rgb(130, 121, 163);
+}
+.light-text-a:hover{
+    text-shadow:0 0 10px rgba(204, 0, 0, 0.39);
+}
+#size-a{
+    width: 30rem;
+}
