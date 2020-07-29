@@ -1,30 +1,13 @@
 .border {
     font-style: normal;
-    
-    
     border-radius: 1rem;
-    
-    text-align: center;
+    text-align: start;
 }
 
-.border:hover {
-    
-    background-color: rgba(189, 219, 253, 0.562);
-    
-}
 
-#d {
-    display: none;
-}
 
-#img-proj {
-    width: 100%;
-}
 
-.box-prew {
-    width: 10rem;
-    height: 5.1rem;
-    
-}
+
+
 
 

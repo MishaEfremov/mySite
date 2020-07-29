@@ -4,3 +4,10 @@
 #sprite{
     width: 4.5rem;
 }
+#sprite:hover{
+    width: 4.7rem;
+}
+.box-logo{
+    height: 25rem;
+    width: 30rem;
+}

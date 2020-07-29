@@ -1,45 +1,100 @@
 html, body {
     height: 100%;
-  }
-
-nav{
-    display: flex;
-    justify-content: space-around;
+    font-family: "Oswald";
 }
+
+
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgba(0, 0, 0, 0.404);
 }
 
 a:hover {
-    color: rgba(0, 0, 0, 0.349);
-   
-    
+    color: rgba(14, 13, 13, 0.829);
 }
 
 li {
     list-style-type: none;
 }
 
-
-
 .backgroundBody {
     background: #abbaab;
-    
     background: linear-gradient(to top, #859485, #ffffff) no-repeat;
-    
-    
     font-family: "Oswald", sans-serif;
+}
+
+.light-blue:hover {
+    box-shadow: 0 0 30px rgb(130, 121, 163);
+}
+
+.light-text-a:hover {
+    text-shadow: 0 0 10px rgba(204, 0, 0, 0.39);
+}
+/*
+.red-line:hover {
+    border-bottom: 0.2rem red solid;
+}
+*/
+#size-a {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30rem;
+}
+
+#size-a p {
+    margin: 0 0.2rem;
+}
+
+.center-column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center-row {
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
-.light-blue:hover {
-     box-shadow: 0 0 30px rgb(130, 121, 163);
+
+.cotainer {
+  
+    background: linear-gradient(to bottom, #f1f2f3, #8f8f8f);
 }
-.light-text-a:hover{
-    text-shadow:0 0 10px rgba(204, 0, 0, 0.39);
+
+.grid {
+    display: grid;
+    grid-template-columns: 10rem 40rem;
+    grid-template-rows: 10rem 10rem 10rem 5rem;
 }
-#size-a{
-    width: 30rem;
+header {
+    grid-area: 1/1/4;
+    
+}
+main{
+    grid-area: 1/2/4/div;
+}
+footer{
+    grid-area: 4/1/4/ div;
+}
+.footerbg{
+    background-image: url("../images/footer.png");
+   
+}
+
+.red-line {
+    color: rgba(255, 0, 0, 0.753);
+    text-decoration: none;
+    
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.red-line:hover, .red-line:focus {
+    background-size: 90% 2px;
+    
 }
