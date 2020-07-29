@@ -6,7 +6,9 @@ html, body {
 
 
 a {
+    font-family: "Anton";
     text-decoration: none;
+    font-size: 1.2rem;
     color: rgba(0, 0, 0, 0.404);
 }
 
@@ -97,4 +99,35 @@ footer{
 .red-line:hover, .red-line:focus {
     background-size: 90% 2px;
     
+}
+.space{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media(min-width: 75rem){
+    html{
+        width: 75rem;
+        margin: auto auto;
+    }
+
+}
+@media(max-width: 75rem){
+
+}
+@media(max-width: 65rem){
+    
+}
+@media(max-width: 45rem){
+    
+}
+@media(max-width: 35rem){
+    html{
+        width: 20rem;
+        margin: auto auto;
+    }
+    footer{
+        width: 20rem;
+    }
 }
