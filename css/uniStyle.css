@@ -3,8 +3,6 @@ html, body {
     font-family: "Oswald";
 }
 
-
-
 a {
     font-family: "Anton";
     text-decoration: none;
@@ -33,19 +31,11 @@ li {
 .light-text-a:hover {
     text-shadow: 0 0 10px rgba(204, 0, 0, 0.39);
 }
-/*
-.red-line:hover {
-    border-bottom: 0.2rem red solid;
-}
-*/
-#size-a {
-    display: flex;
-    flex-wrap: wrap;
-    width: 30rem;
-}
 
-#size-a p {
-    margin: 0 0.2rem;
+.center-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .center-column {
@@ -54,15 +44,8 @@ li {
     flex-direction: column;
 }
 
-.center-row {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
 .cotainer {
-     
-    background:  url(../images/header.png), linear-gradient(to bottom, #f1f2f3, #8f8f8f);
+    background: url(../images/header.png), linear-gradient(to bottom, #f1f2f3, #8f8f8f);
     background-size: 100% 5rem, auto auto;
     background-repeat: no-repeat;
 }
@@ -72,27 +55,26 @@ li {
     grid-template-columns: 10rem 40rem;
     grid-template-rows: 10rem 10rem 10rem 5rem;
 }
+
 header {
     grid-area: 1/1/4;
-    
 }
 
+main {
+    grid-area: 1/2/4;
 }
-main{
-    grid-area: 1/2/4/div;
+
+footer {
+    grid-area: 4/1/4/div;
 }
-footer{
-    grid-area: 4/1/4/ div;
-}
-.footerbg{
+
+.footerbg {
     background-image: url("../images/footer.png");
-   
 }
 
 .red-line {
     color: rgba(255, 0, 0, 0.753);
     text-decoration: none;
-    
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
@@ -102,36 +84,10 @@ footer{
 
 .red-line:hover, .red-line:focus {
     background-size: 90% 2px;
-    
 }
-.space{
+
+.space {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-@media(min-width: 75rem){
-    html{
-        width: 75rem;
-        margin: auto auto;
-    }
-
-}
-@media(max-width: 75rem){
-
-}
-@media(max-width: 65rem){
-    
-}
-@media(max-width: 45rem){
-    
-}
-@media(max-width: 35rem){
-    html{
-        width: 20rem;
-        margin: auto auto;
-    }
-    footer{
-        width: 20rem;
-    }
 }
