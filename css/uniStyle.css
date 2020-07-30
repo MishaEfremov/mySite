@@ -61,8 +61,10 @@ li {
 }
 
 .cotainer {
-  
-    background: linear-gradient(to bottom, #f1f2f3, #8f8f8f);
+     
+    background:  url(../images/header.png), linear-gradient(to bottom, #f1f2f3, #8f8f8f);
+    background-size: 100% 5rem, auto auto;
+    background-repeat: no-repeat;
 }
 
 .grid {
@@ -73,6 +75,8 @@ li {
 header {
     grid-area: 1/1/4;
     
+}
+
 }
 main{
     grid-area: 1/2/4/div;
