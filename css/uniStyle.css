@@ -52,8 +52,8 @@ li {
 
 .grid {
     display: grid;
-    grid-template-columns: 10rem 40rem;
-    grid-template-rows: 10rem 10rem 10rem 5rem;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto 10rem 10rem 5rem;
 }
 
 header {
