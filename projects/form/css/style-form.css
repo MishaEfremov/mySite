@@ -1,0 +1,126 @@
+html, body {
+    display: flex;
+    justify-content: center;
+}
+
+.font-bebas {
+    font-family: "BebasNeue";
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    display: flex;
+    
+    color: rgba(0, 0, 0, 0.582);
+}
+
+.align-center{
+    align-items: center;
+}
+
+
+.container {
+    width: 23.8rem;
+    height: 23.1rem;
+    border: 0.5rem solid rgba(192, 192, 192, 0.63);
+    background-color: rgba(248, 248, 245, 0.788);
+}
+
+.box {
+    width: 23rem;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.center-col {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.534);
+}
+
+.buttonbuy {
+    background-color: rgba(1, 128, 1, 0.76);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    width: 8rem;
+    height: 2rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.2rem 0.2rem;
+    border: 0.01rem solid rgba(0, 0, 255, 0);
+}
+.row:hover{
+    background-color: rgba(0, 0, 255, 0.021);
+    border: 0.01rem solid rgba(0, 0, 255, 0.11);
+}
+
+
+.button-radio,
+label {
+  cursor: pointer;
+}
+
+.button-radio {
+  position: relative;
+  height: 1.6rem;
+  width: 1.6rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+.font-ari{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
+.button-radio::before {
+  content: '';
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 0.2rem solid rgba(10, 108, 207, 0.774);
+}
+
+.button-radio:checked::after {
+  content: '';
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background-color: dodgerblue;
+  transform: translate(-50%, -50%);
+  
+}.color-price{
+    color: rgba(1, 1, 82, 0.678);
+}
+
+
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url("../font/BebasNeue\ Bold.ttf");
+    
+}
+

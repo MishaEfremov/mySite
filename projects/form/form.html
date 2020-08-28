@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+    <title>form</title>
+    <link rel="stylesheet" href="css/style-form.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="center">
+            <section>
+                <section class="box">
+                    <div class="row">
+                        <p class="font-bebas align-center"><input type="radio" name="rd" id="a" value="1" class="button-radio">licence plan
+                            #1</p>
+                        <label for="a" class="center-col">$13 per license</label>
+                    </div>
+                    <div class="row">
+                        <p class="font-bebas align-center">
+                            <input type="radio" name="rd" id="b" value="2" class="button-radio">licence plan #2</p>
+                        <label for="b" class="center-col">$22 per license</label>
+                    </div>
+                    <div class=" row">
+                        <p class="font-bebas align-center">
+                            <input type="radio" name="rd" id="c" value="3" class="button-radio">licence plan #3</p>
+                        <label for="c" class="center-col">$34 per license</label>
+                    </div>
+                </section>
+                <hr>
+                </hr>
+                <div class="center center-row">
+                    <p class="center center-row center-col" >Number of license:</p>
+                    <select id="licenceQty">
+                        <option>10</option>
+                        <option>20</option>
+                        <option>30</option>
+                    </select>
+                </div>
+                <!-- <p class="center center-row center-col">Number of license:<input type="number" name="numbers" value="10" min="1" max="30" step="1" id="licenceQty"></p>-->
+                <div class="value-button"></div>
+                <hr>
+                </hr>
+            </section>
+            <section class="center">
+                <p class="font-bebas">TOTAL:<span class="color-price">$</span><output name="rd" id="totalPrice"
+                        class="color-price">0</output> <sup class=" color-price">us</sup></p>
+                <button class="buttonbuy">BUY NOW</button>
+
+                <p class="color-price center-col">Selected plan:<output name="rd" id="selectedPlan">0</output></p>
+
+            </section>
+            <script src="script/form.js">
+            </script>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

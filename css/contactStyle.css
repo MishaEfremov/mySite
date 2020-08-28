@@ -1,13 +1,15 @@
-#d{
-    display: block;
+.icon-logo{
+    width: 70px;
+    height: 70px;
+    opacity: 0.9;
 }
-#sprite{
-    width: 4.5rem;
+.icon-logo:hover{
+    width: 80px;
+    height: 80px;
+    opacity: 1;
 }
-#sprite:hover{
-    width: 4.7rem;
-}
+
 .box-logo{
-    height: 10rem;
-    width: 10rem;
+    height: 5rem;
+    width: 5rem;
 }

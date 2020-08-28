@@ -1,0 +1,353 @@
+.body-main{
+    width: 1366px;
+    min-height:2714px;
+    font-family: "WorkSans";
+    background: white;
+    border: 1px olive solid;
+}
+.header-main{
+    border: 1px red solid;
+    background: #F1F2F4;
+    width: 100%;
+    height: 617px;
+}
+header li{
+    display: inline-block;
+}
+header a{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: black;
+}
+
+.vectors {
+    border: red;
+    float: right;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+.vector{
+    margin: 5px;
+    height: 18px;
+    width: 18px;
+}
+.vector1{
+    margin: 5px;
+    height: 18px;
+    width: 20px;
+
+}
+.vector2{
+
+    width: 10px;
+    height: 27px;
+}
+.face{
+    font-size: 14px;
+}
+.inst{
+    font-size: 14px;
+}
+.NIMES{
+    text-align: center;
+    font-size: 24px;
+    color: #151C22;
+    font-weight: 800;
+}
+.best{
+    font-weight: bold;
+    font-size: 32px;
+    padding-left: 60px;
+}
+.shop{
+    font-weight: bold;
+    padding-left: 38px;
+}
+.shopby{
+    font-size: 32px;
+    padding-left: 55px;
+}
+.Jeans{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.Shirts{
+    margin-top: -50px;
+    margin-left: 325px;
+}
+.Jackets{
+    margin-top: 10px;
+    margin-left: 630px;
+}
+.Overalls{
+    margin-top: -50px;
+    margin-left: 930px;
+}
+.deserve{
+    position: absolute;
+    font-size: 18px;
+    margin-left: 238px;
+    margin-top: 230px;
+    color: #727A82;
+}
+.denim{
+    position: absolute;
+    font-family: "Anton-Regular";
+    width: 305px;
+    height: 104px;
+    line-height: 188px;
+    font-size: 128px;
+    margin-top: 230px;
+    margin-left: 236px;
+    color: #151C22;
+}
+.button1{
+
+    position: absolute;
+    background: #151C22;
+    width: 219px;
+    height: 64px;
+    margin-top: 400px;
+    margin-left: 240px;
+    color: #cccccc;
+
+}
+.check{
+    font-size: 16px;
+    padding-top: 8px;
+    text-align: center;
+
+}
+.view1{
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    margin-left: 1160px;
+    margin-top: -50px;
+}
+.view2{
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    margin-left: 1210px;
+
+}
+.main-pich{
+    
+   
+}  
+ .firstg{
+    width: 25%;
+    height: 25%;
+   
+}
+.line2{
+      height: 15%;
+    width: 15%;
+}
+.line3{
+    height: 15%;
+    width: 15%;
+
+}
+.block1{
+    background: #F1F2F4;
+    height:617px;
+    width: 1366px;
+}
+header li{
+    display: inline-block;
+}
+
+.navig1{
+
+    font-size: 16px;
+    float: left;
+    width:60px;
+    height: 110px;
+
+    padding-top: 50px;
+    padding-left: 98px;
+}
+.bestsellers{
+    margin-left: 38px;
+}
+.Rectang1,
+.Rectang2,
+.Rectang3,
+.Rectang4{
+
+    height: 349px;
+    width: 270px;
+    padding-left: 28px;
+
+}
+.nameprice1{
+
+    margin-left: 25px;
+}
+.nameprice2{
+
+    margin-left: 325px;
+}
+.nameprice3{
+    margin-left: 625px;
+}
+.nameprice4{
+
+    margin-left: 920px;
+}
+
+.nameprice1,
+.nameprice2,
+.nameprice3,
+.nameprice4{
+    margin-top: 20px;
+    position: absolute;
+
+}
+.price1{
+    margin-left: 25px;
+}
+.price2{
+    margin-left: 325px;
+}
+.price3{
+    margin-left: 625px;
+}
+.price4{
+    margin-left: 920px;
+}
+.price1,
+.price2,
+.price3,
+.price4{
+    position: absolute;
+    margin-top: 45px;
+    font-weight: bold;
+}
+.Rectangle{
+    width: 700px;
+    height: 370px;
+}
+
+
+.Rectang6,
+.Rectang8{
+    height: 349px;
+    width: 270px;
+    padding-left: 26px;
+}
+.Rectang9,
+.Rectang7{
+    padding-bottom: 59px;
+    height: 290px;
+    width: 270px;
+    padding-left: 26px;
+}
+
+
+figcaption{
+    position: absolute;
+}
+.info{
+    border-spacing: 40px;
+    margin-left: 400px;
+}
+
+.fall{
+    margin-top: 150px;
+    margin-left: 60px;
+}
+.street{
+    margin-top: 70px;
+    margin-left: 70px;
+    color: #727A82;
+    font-size: 18px;
+}
+.falltext{
+    margin-top: 20px;
+    margin-left: 70px;
+    font-weight: bold;
+    font-size: 32px;
+}
+.button2{
+    margin-top: 50px;
+    margin-left: 70px;
+    background-color: #151C22;
+    width: 200px;
+    height: 64px;
+}
+.now{
+    padding-top: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.line1{
+    height: 370px;
+    width: 470px;
+}
+.back{
+    position: absolute;
+    width: 400px;
+    height: 308px;
+    left: 809px;
+    top: 1330px;
+    background: #F1F2F4;
+
+}
+.bodybg1{
+    width: 1366px;
+    height: 1923px;
+}
+.catalogImage{
+    width: 299px;
+    height: 260px;
+}
+.image3,
+.image1,
+.image2,
+.image4{
+    width: 243px;
+    height: 270px;
+}
+footer{
+    min-height: 222px;
+    width: 100%;
+    background: #151C22;;
+    color: white;
+    font-size: 18px;
+}
+
+
+@font-face {
+    font-family: "Anton-Regular";
+    src: url("../fonts/Anton-Regular.eot");
+    src: url("../fonts/Anton-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Anton-Regular.ttf") format("truetype");
+
+}
+@font-face {
+    font-family: "WorkSans";
+    src: url("../fonts/WorkSans-Medium.eot");
+    src: url("../fonts/WorkSans-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/WorkSans-Medium.ttf") format("truetype");
+
+}
+
+@media screen and (max-width: 320px){
+    
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 1366px){
+
+}
