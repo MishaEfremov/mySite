@@ -51,7 +51,7 @@ li{
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 .link-proj:hover{
     color: #555555;
